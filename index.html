@@ -10,3 +10,25 @@
     <iframe src="https://vigilant-eureka-v6ggp5r7x7jjcprg4-8081.app.github.dev/" width="100%" height="600px" style="border:none;"></iframe>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Content</title>
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Backspace' || event.key === 'ArrowLeft' || event.key === 'ArrowRight' || event.key === ' ') {
+                event.preventDefault();
+                // Handle the specific key event here
+                console.log('Key pressed:', event.key);
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>Embedded Content</h1>
+    <p>Press backspace, arrow keys, or space to see event handling in action.</p>
+</body>
+</html>
+
